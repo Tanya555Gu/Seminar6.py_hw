@@ -13,7 +13,6 @@ minX = int(input('Введите минимальное значение диа�
 maxX = int(input('Введите максимальное значение диапазона -> '))
 def diap(listA, minA, maxA):
     listB = []
-    i = 0
     for i in range(len(listA)):
         if minA <= listA[i] <= maxA:
             listB.append(i)
